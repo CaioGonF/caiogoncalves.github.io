@@ -43,6 +43,17 @@
     border-radius: 4px;
   }
 }
+@media (max-width: 600px) {
+  .header {
+    align-items: start;
+    margin: 0 15px;
+    padding: 10px 5px;
+  }
+  .header-nome {
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
 @media print {
   .header {
     align-items: start;

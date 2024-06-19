@@ -30,9 +30,21 @@ img {
 }
 
 @media (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+    max-width: 100vh;
+    margin-inline: 0px;
+    padding-inline: 0px;
+  }
   .subtitulo {
     font-size: 3rem;
     text-transform: capitalize;
+    max-width: initial !important;
+  }
+}
+@media (max-width: 600px) {
+  .subtitulo {
+    font-size: 2rem !important;
     max-width: initial !important;
   }
 }

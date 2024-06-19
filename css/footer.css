@@ -43,12 +43,15 @@
 }
 
 @media (max-width: 800px) {
+  .footer {
+    box-sizing: border-box !important;
+  }
   .footer-container {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 30px;
   }
   .footer-contato li {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 @media print {

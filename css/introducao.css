@@ -42,6 +42,23 @@
     left: 0px;
   }
 }
+@media (max-width: 600px) {
+  .introducao {
+    max-width: 1200px;
+    padding: 15px 5px;
+    margin: 0 auto;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    box-sizing: border-box !important;
+  }
+  .introducao h1 {
+    font-size: 2.5rem;
+    line-height: 1.125;
+    margin-bottom: 20px;
+    position: relative;
+  }
+}
 @media print {
   .introducao {
     padding: 10px 5px;

@@ -108,9 +108,13 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .empresa {
     grid-template-columns: 1fr;
+  }
+  .experiencia-texto {
+    font-size: 1rem;
+    line-height: 1.1;
   }
 }
 @media print {
