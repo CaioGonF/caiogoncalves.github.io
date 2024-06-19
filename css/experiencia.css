@@ -18,7 +18,7 @@
   max-width: 60ch;
   margin-bottom: 60px;
   color: #525252;
-  max-width: 95%;
+  max-width: 98%;
 }
 
 .experiencia-texto strong {
@@ -35,7 +35,7 @@
   border-radius: 4px;
   position: relative;
   transition: 0.1s;
-  max-width: 85%;
+  max-width: 98%;
 }
 .empresa:hover {
   border-right: #4169e1 5px solid;
@@ -114,9 +114,15 @@
   .empresa {
     grid-template-columns: 1fr;
   }
+  .experiencia {
+    padding: 10px;
+    margin: 0;
+    gap: 20px;
+  }
   .experiencia-texto {
     font-size: 1rem;
     line-height: 1.1;
+    margin-bottom: 10px;
   }
   .empresa:hover {
     border-right: 0px;
