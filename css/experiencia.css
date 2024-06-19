@@ -119,7 +119,8 @@
     line-height: 1.1;
   }
   .empresa:hover {
-    display: none;
+    border-right: 0px;
+    border-bottom: 0px;
   }
 }
 @media print {
